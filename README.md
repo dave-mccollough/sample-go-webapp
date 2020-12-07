@@ -1,1 +1,1 @@
-# sample-go-webapp
+# Sample Go Webapp
