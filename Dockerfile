@@ -10,3 +10,5 @@ WORKDIR /app
 RUN go build -o main .
 ## Start command that kicks off our the created binary executable
 CMD ["/app/main"]
+## Expose port 80 for Azure App Service
+EXPOSE 80
